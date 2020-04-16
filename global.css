@@ -45,6 +45,24 @@ nav a {
     color: white;
 }
 
+.hero-image {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#heart_jeans {
+    background-color: #7b8235;  
+    width: 67%;
+    float: top;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
 #blurb {
     color: rebeccapurple;
     padding: 100px;
