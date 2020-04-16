@@ -1,0 +1,29 @@
+main {
+    padding: 30px 100px;
+    color: gray;
+}
+
+h1 {
+    color: forestgreen;
+}
+
+.bgimg1 {
+    background-image: url("../images/home.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 100%;
+}
+
+.bgimg2 {
+    background-image: url("../images/kate.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 100%;
+}
+
+.bgimg3 {
+    background-image: url("../images/sam.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 100%;
+}

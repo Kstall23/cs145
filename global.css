@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;   
+}
+
+html, body{
+    height: 100%;
+}
+
+header {
+    display: flex; /*keeps everything on screen*/
+    justify-content: space-between; /*keep uniform spacing*/
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rebeccapurple;
+}
+
+header li, a, button {
+    text-decoration: none;
+}
+
+nav {
+    padding-left: 20px;
+}
+
+nav li {
+    display: inline-block; /*no more bullets*/
+    padding: 20px;
+    
+}
+
+nav li:hover {
+    background-color: green;
+}
+
+nav a {
+    color: white;
+}
+
+#logo { /*simulated a logo*/
+    font-size: 3em;
+    color: white;
+}
+
+#blurb {
+    color: rebeccapurple;
+    padding: 100px;
+}
